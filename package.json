@@ -1,0 +1,23 @@
+{
+  "name": "3dedit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "@vue/compiler-sfc": "^3.5.13",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.1",
+    "vue-tsc": "^3.1.0"
+  }
+}
